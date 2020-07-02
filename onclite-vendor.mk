@@ -1604,7 +1604,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onclite/proprietary/vendor/radio/qcril_database/upgrade/5_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/5_version_update_ecc_table.sql
 
 PRODUCT_PACKAGES += \
-    libbtconfigstore \
     vendor.qti.hardware.fm@1.0 \
     libgpustats \
     libsdm-disp-vndapis \
