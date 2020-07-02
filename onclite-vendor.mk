@@ -37,6 +37,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onclite/proprietary/lib/extractors/libmmparserextractor.so:$(TARGET_COPY_OUT_SYSTEM)/lib/extractors/libmmparserextractor.so \
     vendor/xiaomi/onclite/proprietary/lib/fm_helium.so:$(TARGET_COPY_OUT_SYSTEM)/lib/fm_helium.so \
     vendor/xiaomi/onclite/proprietary/lib/libFileMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libFileMux.so \
+    vendor/xiaomi/onclite/proprietary/lib/libbtconfigstore.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libbtconfigstore.so \
     vendor/xiaomi/onclite/proprietary/lib/libOmxMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libOmxMux.so \
     vendor/xiaomi/onclite/proprietary/lib/libfm-hci.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libfm-hci.so \
     vendor/xiaomi/onclite/proprietary/lib/libmmosal.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmosal.so \
@@ -62,6 +63,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onclite/proprietary/lib64/com.qualcomm.qti.ant@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/com.qualcomm.qti.ant@1.0.so \
     vendor/xiaomi/onclite/proprietary/lib64/fm_helium.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/fm_helium.so \
     vendor/xiaomi/onclite/proprietary/lib64/libFileMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libFileMux.so \
+    vendor/xiaomi/onclite/proprietary/lib64/libbtconfigstore.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libbtconfigstore.so \
     vendor/xiaomi/onclite/proprietary/lib64/libfm-hci.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libfm-hci.so \
     vendor/xiaomi/onclite/proprietary/lib64/libmmosal.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmmosal.so \
     vendor/xiaomi/onclite/proprietary/lib64/libmmparser_lite.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmmparser_lite.so \
