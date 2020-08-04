@@ -24,7 +24,7 @@
         <!-- CPUBOOST_MIN_FREQ BIG resource opcode, value-->
         <Config
             Id="0x00001081" Type="1" Enable="true" Timeout="2000"  Target="sdm632"
-            Resources="0x40C00000, 0x1, 0x40800100, 0x40C, 0x40800000, 0x579" />
+            Resources="0x40C00000, 0x1, 0x40800100, 1800, 0x40800000, 1800" />
 
         <!-- SCHEDBOOST resource opcode, value-->
         <!-- CPUBOOST_MIN_FREQ LITTLE Core resource opcode, value-->
@@ -48,7 +48,7 @@
         <!-- CPUBOOST_MIN_FREQ BIG Core resource opcode, value-->
         <Config
             Id="0x00001083" Enable="true" Timeout="600"  Target="sdm632"
-            Resources="0x40800100, 0x40C, 0x40800000, 0x446" />
+            Resources="0x40800100, 0x70C, 0x40800000, 0x70C" />
 
         <!-- CPUBOOST_MIN_FREQ LITTLE Core resource opcode, value-->
         <Config
@@ -90,28 +90,6 @@
         <Config
             Id="0x00001080" Type="4" Enable="true" Timeout="80" Target="sdm632"
             Resources="0x40800100, 0x40C, 0x40800000, 0x446,0x40C00000, 0x2"  />
-
-    <!--MTP boost-->
-        <!-- SCHEDBOOST resource opcode, value-->
-        <!-- CPUBOOST_MAX_FREQ LITTLE Core resource opcode, value-->
-        <!-- CPUBOOST_MIN_FREQ LITTLE Core resource opcode, value-->
-        <!-- STORAGE CLK SCALING resource opcode, value-->
-
-        <!-- Type="", MTP boost -->
-
-        <Config
-            Id="0x00001086" Enable="true"
-            Resources="0x40C00000, 0x1, 0x40804100, 0xFFF, 0x40800100, 1400, 0x42C10000, 0x1" />
-
-    <!--PackageInstall boost-->
-        <!-- SCHEDBOOST resource opcode, value-->
-        <!-- CPUBOOST_MAX_FREQ LITTLE Core resource opcode, value-->
-        <!-- CPUBOOST_MIN_FREQ LITTLE Core resource opcode, value-->
-        <!-- Type="", Package Install boost -->
-
-        <Config
-            Id="0x00001088" Enable="true"
-            Resources="0x40C00000, 0x1, 0x40804100, 0xFFF, 0x40800100, 0xFFF" />
 
     <!--Rotation latency boost-->
         <!-- SCHEDBOOST resource opcode, value-->
