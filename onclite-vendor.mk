@@ -379,22 +379,22 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onclite/proprietary/vendor/firmware/cpp_firmware_v1_8_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_8_0.fw \
     vendor/xiaomi/onclite/proprietary/vendor/firmware/leia_pfp_470.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/leia_pfp_470.fw \
     vendor/xiaomi/onclite/proprietary/vendor/firmware/leia_pm4_470.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/leia_pm4_470.fw \
-    vendor/xiaomi/daisy/proprietary/vendor/firmware/fpctzapp.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/fpctzapp.b00 \
-    vendor/xiaomi/daisy/proprietary/vendor/firmware/fpctzapp.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/fpctzapp.b01 \
-    vendor/xiaomi/daisy/proprietary/vendor/firmware/fpctzapp.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/fpctzapp.b02 \
-    vendor/xiaomi/daisy/proprietary/vendor/firmware/fpctzapp.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/fpctzapp.b03 \
-    vendor/xiaomi/daisy/proprietary/vendor/firmware/fpctzapp.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/fpctzapp.b04 \
-    vendor/xiaomi/daisy/proprietary/vendor/firmware/fpctzapp.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/fpctzapp.b05 \
-    vendor/xiaomi/daisy/proprietary/vendor/firmware/fpctzapp.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/fpctzapp.b06 \
-    vendor/xiaomi/daisy/proprietary/vendor/firmware/fpctzapp.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/fpctzapp.mdt \
-    vendor/xiaomi/daisy/proprietary/vendor/firmware/goodixfp.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b00 \
-    vendor/xiaomi/daisy/proprietary/vendor/firmware/goodixfp.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b01 \
-    vendor/xiaomi/daisy/proprietary/vendor/firmware/goodixfp.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b02 \
-    vendor/xiaomi/daisy/proprietary/vendor/firmware/goodixfp.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b03 \
-    vendor/xiaomi/daisy/proprietary/vendor/firmware/goodixfp.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b04 \
-    vendor/xiaomi/daisy/proprietary/vendor/firmware/goodixfp.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b05 \
-    vendor/xiaomi/daisy/proprietary/vendor/firmware/goodixfp.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b06 \
-    vendor/xiaomi/daisy/proprietary/vendor/firmware/goodixfp.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.mdt \
+    vendor/xiaomi/onclite/proprietary/vendor/firmware/fpctzapp.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/fpctzapp.b00 \
+    vendor/xiaomi/onclite/proprietary/vendor/firmware/fpctzapp.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/fpctzapp.b01 \
+    vendor/xiaomi/onclite/proprietary/vendor/firmware/fpctzapp.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/fpctzapp.b02 \
+    vendor/xiaomi/onclite/proprietary/vendor/firmware/fpctzapp.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/fpctzapp.b03 \
+    vendor/xiaomi/onclite/proprietary/vendor/firmware/fpctzapp.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/fpctzapp.b04 \
+    vendor/xiaomi/onclite/proprietary/vendor/firmware/fpctzapp.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/fpctzapp.b05 \
+    vendor/xiaomi/onclite/proprietary/vendor/firmware/fpctzapp.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/fpctzapp.b06 \
+    vendor/xiaomi/onclite/proprietary/vendor/firmware/fpctzapp.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/fpctzapp.mdt \
+    vendor/xiaomi/onclite/proprietary/vendor/firmware/goodixfp.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b00 \
+    vendor/xiaomi/onclite/proprietary/vendor/firmware/goodixfp.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b01 \
+    vendor/xiaomi/onclite/proprietary/vendor/firmware/goodixfp.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b02 \
+    vendor/xiaomi/onclite/proprietary/vendor/firmware/goodixfp.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b03 \
+    vendor/xiaomi/onclite/proprietary/vendor/firmware/goodixfp.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b04 \
+    vendor/xiaomi/onclite/proprietary/vendor/firmware/goodixfp.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b05 \
+    vendor/xiaomi/onclite/proprietary/vendor/firmware/goodixfp.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b06 \
+    vendor/xiaomi/onclite/proprietary/vendor/firmware/goodixfp.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.mdt \
     vendor/xiaomi/onclite/proprietary/vendor/framework/com.fingerprints.extension.jar:$(TARGET_COPY_OUT_VENDOR)/framework/com.fingerprints.extension.jar \
     vendor/xiaomi/onclite/proprietary/vendor/lib/btaudio_offload_if.so:$(TARGET_COPY_OUT_VENDOR)/lib/btaudio_offload_if.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/com.qualcomm.qti.ant@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.ant@1.0.so \
